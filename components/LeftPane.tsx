@@ -13,7 +13,7 @@ export function LeftPanel(){
 
             <h1>Greg Pendleton</h1>
 
-            <p>Developer | react developer | programmer | Full-stack developer</p>
+            <p className="left-panel carousel">Developer | React Developer | Programmer | Full-stack Developer</p>
 
             <ul className="social-list">
 
@@ -42,8 +42,8 @@ export function LeftPanel(){
                 </li>
                 
             </ul>
-            <div>Download Resume <FontAwesomeIcon icon={faDownload} /></div>
-            <div>LinkedIn</div>
+            <div className="left-panel" id="resume">Download Resume <FontAwesomeIcon icon={faDownload} /></div>
+            <div className="left-panel" id="linkedin">LinkedIn</div>
         </>
     )
 }
