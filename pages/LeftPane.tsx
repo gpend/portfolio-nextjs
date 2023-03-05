@@ -6,9 +6,10 @@ import { faCodepen, faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-
 import { faDownload } from "@fortawesome/free-solid-svg-icons"
 
 
+
 export function LeftPanel(){
     return (
-        <>
+        <div className="left-panel">
             <Image width={100} height={100} src= {pic} alt= {'my beautiful face'}/>
 
             <h1>Greg Pendleton</h1>
@@ -42,8 +43,12 @@ export function LeftPanel(){
                 </li>
                 
             </ul>
-            <button className="left-panel" id="resume">Download Resume <FontAwesomeIcon icon={faDownload} /></button>
-            <button className="left-panel" id="linkedin">LinkedIn</button>
-        </>
+
+            <div className="left-panel-buttons">
+                <button className="left-panel" id="resume">Download Resume <FontAwesomeIcon icon={faDownload} /></button>
+                <a href="http://linkedin.com/in/gregpendleton">LinkedIn</a>
+            </div>
+
+        </div>
     )
 }

@@ -1,0 +1,33 @@
+.left-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100dvw;
+    height: 100lvh;
+
+    .social-list{
+        display: flex;
+        padding-inline-start: 0;
+        justify-content: space-between;
+
+        li{
+            margin: 0 .5rem;
+        }
+    }
+
+    .left-panel-buttons{
+        display: flex;
+        width: min-content;
+        
+
+        #resume, a{
+            outline: 1px solid orange;
+            height: min-content;
+        }
+
+        #resume{
+            display: inline-block;
+            width: auto;
+        }
+    }
+}
