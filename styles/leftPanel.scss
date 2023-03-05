@@ -1,9 +1,17 @@
+
 .left-panel{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100dvw;
-    height: 100lvh;
+    width: 30dvw;
+    min-width: 400px;
+    height: 90lvh;
+    padding: .5em;
+    padding-top: 1em;
+    margin-top: 1em;
+    justify-content: space-between;
+    border:1px solid $highlight-color;
+
 
     .social-list{
         display: flex;
@@ -18,7 +26,6 @@
     .left-panel-buttons{
         display: flex;
         width: min-content;
-        
 
         #resume, a{
             outline: 1px solid orange;
