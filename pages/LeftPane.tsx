@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import pic from "@/public/headshot.jpg"
+// import pic from 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCodepen, faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faDownload } from "@fortawesome/free-solid-svg-icons"
@@ -10,7 +10,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons"
 export function LeftPanel(){
     return (
         <div className="left-panel">
-            <Image width={100} height={100} src= {pic} alt= {'my beautiful face'}/>
+            <Image width={100} height={100} src= {"@public/headshot.jpg"} alt= {'my beautiful face'}/>
 
             <h1>Greg Pendleton</h1>
 
